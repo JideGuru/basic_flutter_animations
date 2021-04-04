@@ -1,4 +1,5 @@
-import 'package:basic_animations/pepsi/pepsi.dart';
+import 'package:basic_animations/sharingan/sharingan.dart';
+import 'package:basic_animations/sharingan/tomoe.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         // brightness: Brightness.dark
       ),
       // debugShowMaterialGrid: true,
-      home: Pepsi(),
+      home: SharinganLoader(),
       debugShowCheckedModeBanner: false,
     );
   }

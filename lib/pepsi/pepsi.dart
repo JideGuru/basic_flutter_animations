@@ -281,7 +281,6 @@ class CupPainter extends CustomPainter {
 class DrinkClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {
-    print(size.width / 1.506);
     Path cupPath = Path()
       ..moveTo(size.width / 2.88, size.height / 2.38)
       ..lineTo(size.width / 2.5, size.height / 1.5)
