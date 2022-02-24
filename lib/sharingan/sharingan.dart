@@ -26,7 +26,6 @@ class _SharinganLoaderState extends State<SharinganLoader>
     });
 
     _tomoeController.addListener(() async {
-      print(_tomoeController.value);
       if (_tomoeController.value == 1.0) {
         await Future.delayed(Duration(milliseconds: 300));
         shrink = false;
@@ -163,7 +162,7 @@ class _TomoePainter extends CustomPainter {
 class RotatingCircle extends StatelessWidget {
   final bool shrink;
 
-  RotatingCircle({@required this.shrink});
+  RotatingCircle({this.shrink});
 
   @override
   Widget build(BuildContext context) {
